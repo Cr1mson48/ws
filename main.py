@@ -1,16 +1,21 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from time import sleep
+from pybit import usdt_perpetual
 
+import logging
+logging.basicConfig(filename="pybit.log", level=logging.DEBUG,
+                    format="%(asctime)s %(levelname)s %(message)s")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+ws_linear = usdt_perpetual.WebSocket(
+    test=True,
+    api_key="JOd5rOOlZV7TaZKrNS",
+    api_secret="k4tIGbeDNk3LbgkZfD8oDG55wZxVe9he6z3R"
+)
 
+def order_msg(message):
+    print(message)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+ws_linear.order_stream(order_msg)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+while True:
+    sleep(1)

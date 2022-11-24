@@ -1,0 +1,15 @@
+
+2022-11-24 17:41:14,523 INFO WebSocket USDT Perp (Auth) attempting connection...
+2022-11-24 17:41:14,523 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-11-24 17:41:14,523 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-11-24 17:41:15,493 WARNING websocket connected
+2022-11-24 17:41:15,532 INFO WebSocket USDT Perp (Auth) connected
+2022-11-24 17:41:15,923 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-11-24 17:41:15,923 DEBUG Subscription to ['order'] successful.
+2022-11-24 17:41:48,883 INFO WebSocket USDT Perp (Auth) attempting connection...
+2022-11-24 17:41:48,883 DEBUG WebSocket USDT Perp (Auth) closed.
+2022-11-24 17:41:48,883 DEBUG WebSocket USDT Perp (Auth) opened.
+2022-11-24 17:41:49,862 WARNING websocket connected
+2022-11-24 17:41:49,894 INFO WebSocket USDT Perp (Auth) connected
+2022-11-24 17:41:50,360 DEBUG Authorization for USDT Perp (Auth) failed. Please check your API keys and restart.
+2022-11-24 17:41:50,360 DEBUG Subscription to ['order'] successful.
